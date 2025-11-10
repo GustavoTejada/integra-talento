@@ -362,26 +362,47 @@ body {
   padding: 48px 80px;
   display: flex;
   flex-direction: column;
-  gap: 40px
+  gap: 40px;
+  flex-wrap: wrap;
 }
-.footer-content{
+.footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-.icons-contact{
+.icons-contact {
   cursor: pointer;
   display: flex;
   gap: 16px;
 }
-.text-footer{
+.text-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-maps{
+.footer-maps {
   display: flex;
   gap: 12px;
+}
+@media (max-width: 767.98px) {
+  .footer {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap:16px
+  }
+  .text-footer {
+    flex-direction: column;
+  }
 }
 
 /* Service Cards */
