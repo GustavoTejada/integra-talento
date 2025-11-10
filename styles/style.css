@@ -522,3 +522,25 @@ body {
     order: 1;
   }
 }
+
+/* Form Controls */
+.form-control:focus,
+.form-select:focus,
+.form-control:active,
+.form-select:active,
+.form-control:focus-visible {
+  border-color: #136f6a !important;
+  box-shadow: 0 0 0 0.25rem rgba(19, 111, 106, 0.25) !important;
+  outline: none;
+}
+
+/* Custom focus styles for all form elements */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #136f6a !important;
+  box-shadow: 0 0 0 0.25rem rgba(19, 111, 106, 0.25) !important;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
