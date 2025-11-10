@@ -523,6 +523,36 @@ body {
   }
 }
 
+/* Service Cards */
+.service-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .text {
+  color: #666;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .service-card {
+    margin-bottom: 1rem;
+  }
+}
+
 /* Form Controls */
 .form-control:focus,
 .form-select:focus,
