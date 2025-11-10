@@ -304,14 +304,82 @@ body {
   flex-direction: column;
   gap: 64px;
 }
-.group-cards{
+.group-cards {
   margin: 0 auto;
   display: flex;
 }
-.card-service{
+.card-service {
   width: 180px;
   height: auto;
 }
-.card-icons{
+.card-icons {
   font-size: 48px;
+}
+
+.our-impact {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 60px 55px 60px;
+}
+.our-impact-group {
+  display: flex;
+  gap: 24px;
+}
+.our-impact-card {
+  width: 260px;
+  display: flex;
+  gap: 16px;
+  text-align: start;
+  display: flex;
+  border: 1px solid #efefef;
+  padding: 16px;
+}
+.our-impact-icons {
+  padding: 12px;
+  height: 42px;
+}
+.organizations {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  gap: 80px;
+}
+
+.maps {
+  height: 450px;
+  width: 100%;
+}
+.footer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons-contact{
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+}
+.text-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-maps{
+  display: flex;
+  gap: 12px;
 }
